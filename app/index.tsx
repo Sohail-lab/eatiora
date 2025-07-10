@@ -1,8 +1,8 @@
-import "../globals.css"
+import "./globals.css"
 import {FlatList, Image, Pressable, ScrollView, Text, TouchableOpacity, View} from "react-native";
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {images, offers} from '@/constants';
-import React from "react";
+import React, {Fragment} from "react";
 import cn from 'clsx';
 import CartButton from "@/components/CartButton";
 
@@ -22,11 +22,11 @@ export default function Index() {
                                 android_ripple={{ color: "fffff22" }}
                             >
                                 {({ pressed }) => (
-                                    <React.Fragment>
+                                    <Fragment>
                                         <View className={"h-full w-1/2"}>
                                             <Image source={item.image} className={"size-full"} resizeMode={"contain"}/>
                                         </View>
-                                        <View className={cn("offer-card__info", isEven ? 'pl-10' : 'pr-10')}>
+                                        <View className={cn("offer-card__info", isEven ? 'pl-8' : 'pr-8')}>
                                             <Text className="h1-bold text-white leading-tight">
                                                 {item.title}
                                             </Text>
@@ -37,7 +37,7 @@ export default function Index() {
                                                 tintColor="#ffffff"
                                             />
                                         </View>
-                                    </React.Fragment>
+                                    </Fragment>
                                 )}
                             </Pressable>
                         </View>
