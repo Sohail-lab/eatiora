@@ -1,9 +1,10 @@
-import "./globals.css"
+import "../globals.css"
 import {FlatList, Image, Pressable, ScrollView, Text, TouchableOpacity, View} from "react-native";
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {images, offers} from '@/constants';
 import React from "react";
 import cn from 'clsx';
+import CartButton from "@/components/CartButton";
 
 export default function Index() {
     return (
@@ -52,7 +53,7 @@ export default function Index() {
                                 <Image source={images.arrowDown} className="size-3" resizeMode="contain" />
                             </TouchableOpacity>
                         </View>
-                        <Text>Cart</Text>
+                        <CartButton />
                     </View>
                 )}
             />
