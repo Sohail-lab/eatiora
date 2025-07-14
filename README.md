@@ -1,50 +1,77 @@
-# Welcome to your Expo app 👋
+# Eatiora
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Eatiora is a simple and friendly food ordering app for your mobile device. It lets you browse delicious meals and add them to your cart, all from your phone. This app is designed to be easy for anyone to use.
 
-## Get started
+## What Can You Do With Eatiora?
 
-1. Install dependencies
+- **Sign Up and Sign In:**
+  - Create your own account with your name, email, and password.
+  - Log in securely to access the app.
 
+- **Browse the Menu:**
+  - See a variety of food offers, like burgers, pizzas, wraps, and more.
+  - Tap on offers to see more details and mouth-watering images.
+
+- **Add to Cart:**
+  - Choose your favorite meals and add them to your cart.
+  - You can add more than one item, and see the total number of items in your cart at any time.
+
+- **View and Manage Cart:**
+  - Open your cart to see all the items you want to order.
+  - Change the quantity or remove items before placing your order.
+
+- **Profile Tab:**
+  - There is a profile tab, but in this version, you cannot view or edit detailed profile information. It is just a placeholder for now.
+
+- **Easy Navigation:**
+  - The app is organized into simple tabs: Home, Search, Cart, and Profile.
+  - You can easily switch between these sections using the menu at the bottom.
+
+## How Does It Work?
+
+1. **Start the App:**
+   - Open Eatiora on your mobile device.
+   - If you are new, sign up with your details. If you already have an account, just sign in.
+
+2. **Browse and Choose:**
+   - Explore the menu and tap on any offer to learn more.
+   - Add the meals you want to your cart.
+
+3. **Check Your Cart:**
+   - Tap the cart icon to see your selected items.
+   - Adjust quantities or remove items as needed.
+
+4. **Place Your Order:**
+   - (Note: This version may not include payment or delivery, but you can see how your order would look.)
+
+5. **Profile:**
+   - Tap the profile tab (currently, it does not show your details).
+
+## Who Is This App For?
+
+Eatiora is for anyone who wants a simple way to browse and select food on their mobile device.
+
+## How To Get Started (For Users)
+
+1. **Install the App:**
+   - (If you are using a test version, follow the instructions from your app provider.)
+2. **Open Eatiora and Sign Up or Sign In.**
+3. **Start browsing and enjoy choosing your favorite meals!**
+
+## How To Get Started (For Developers)
+
+If you want to run Eatiora on your own mobile device:
+
+1. Install dependencies:
    ```bash
    npm install
    ```
-
-2. Start the app
-
+2. Start the app:
    ```bash
    npx expo start
    ```
+3. Follow the on-screen instructions to open the app on your phone or emulator.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**Eatiora** is designed to be welcoming and easy for everyone. Enjoy your food journey!
