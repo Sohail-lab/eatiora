@@ -33,6 +33,14 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "eatiora_food_rn",
+          "organization": "sohail-02"
+        }
       ]
     ],
     "experiments": {
